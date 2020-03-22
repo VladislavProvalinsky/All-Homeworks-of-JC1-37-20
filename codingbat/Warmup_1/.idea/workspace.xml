@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bd94fe1-a332-4e97-9959-3816192ddaf0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework 3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework 3/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework 3/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework 3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework 3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework 3/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework 3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework 3/Homework 3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework 3/src/homework3/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,16 +25,20 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1ZUHMnGS0LGEtrTTUkKNDJkB2wy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -70,7 +82,14 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="579" y="173" key="FileChooserDialogImpl" timestamp="1584890246536">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="579" y="173" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1584890246536" />
     <state width="1556" height="218" key="GridCell.Tab.0.bottom" timestamp="1584887739812">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -87,9 +106,17 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1556" height="218" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1584887739812" />
-    <state x="507" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1584886712546">
+    <state x="303" y="61" key="SettingsEditor" timestamp="1584888897917">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="507" y="256" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1584886712546" />
+    <state x="303" y="61" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1584888897917" />
+    <state x="507" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1584888856896">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="507" y="256" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1584888856896" />
+    <state x="182" y="55" key="new project wizard" timestamp="1584890251740">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="182" y="55" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1584890251740" />
   </component>
 </project>
