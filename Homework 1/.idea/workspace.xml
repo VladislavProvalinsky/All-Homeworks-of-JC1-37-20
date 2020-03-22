@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="685ffc20-830e-476a-b890-f7c7827a5b6f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework 1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework 1/homework1/ByteOperations1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework 1/homework1/ByteOperations2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework 1/homework1/PriorityOperations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework 1/homework1/ScannerIf.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework 1/homework1/ScannerIfElseIf.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework 1/homework1/ScannerSwitch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework1/ByteOperations1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework1/ByteOperations2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework1/PriorityOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework1/ScannerIf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework1/ScannerIfElseIf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework1/ScannerSwitch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 2/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 2/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 2/Homework 2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 2/out/production/Homework 2/homework2/CalculatorWithOperator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 2/out/production/Homework 2/homework2/CalculatorWithOperatorMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 2/out/production/Homework 2/homework2/Color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 2/out/production/Homework 2/homework2/ColorMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 2/src/homework2/CalculatorWithOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 2/src/homework2/CalculatorWithOperatorMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 2/src/homework2/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 2/src/homework2/ColorMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JC1-37-20/out/production/JC1-37-20/edu/academy/StaticMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JC1-37-20/out/production/JC1-37-20/edu/academy/StringMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JC1-37-20/out/production/JC1-37-20/edu/academy/StringsMain1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JC1-37-20/out/production/JC1-37-20/edu/academy/TestMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JC1-37-20/out/production/JC1-37-20/edu/academy/WhileMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JC1-37-20/out/production/JC1-37-20/edu/academy/visibility/StaticMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JC1-37-20/out/production/JC1-37-20/edu/academy/visibility/StaticMain2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JC1-37-20/out/production/JC1-37-20/edu/operator/ProtMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JC1-37-20/src/edu/academy/StaticMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JC1-37-20/src/edu/academy/StringMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JC1-37-20/src/edu/academy/StringsMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JC1-37-20/src/edu/academy/TestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JC1-37-20/src/edu/academy/WhileMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JC1-37-20/src/edu/academy/visibility/StaticMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JC1-37-20/src/edu/academy/visibility/StaticMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../warmup_1/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../warmup_1/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../warmup_1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../warmup_1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../warmup_1/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../warmup_1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../warmup_1/out/production/warmup_1/homework3/MainWarmup_1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../warmup_1/out/production/warmup_1/homework3/Warmup_1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../warmup_1/src/homework3/MainWarmup_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../warmup_1/src/homework3/warmup_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../warmup_1/warmup_1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Homework 1/META-INF/Homework 1.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JC1-37-20/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JC1-37-20/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JC1-37-20/out/production/JC1-37-20/META-INF/JC1-37-20.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JC1-37-20/out/production/JC1-37-20/edu/academy/HairMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JC1-37-20/out/production/JC1-37-20/edu/academy/HairMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JC1-37-20/out/production/JC1-37-20/edu/academy/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JC1-37-20/out/production/JC1-37-20/edu/academy/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JC1-37-20/out/production/JC1-37-20/edu/academy/Man.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JC1-37-20/out/production/JC1-37-20/edu/academy/Man.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JC1-37-20/out/production/JC1-37-20/edu/academy/ManMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JC1-37-20/out/production/JC1-37-20/edu/academy/ManMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JC1-37-20/out/production/JC1-37-20/edu/academy/animal/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JC1-37-20/out/production/JC1-37-20/edu/academy/animal/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JC1-37-20/out/production/JC1-37-20/edu/academy/animal/EatMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JC1-37-20/out/production/JC1-37-20/edu/academy/animal/EatMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JC1-37-20/out/production/JC1-37-20/edu/academy/animal/Fizik.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JC1-37-20/out/production/JC1-37-20/edu/academy/animal/Fizik.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JC1-37-20/out/production/JC1-37-20/edu/academy/operator/IfOperatorMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JC1-37-20/out/production/JC1-37-20/edu/academy/operator/IfOperatorMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JC1-37-20/out/production/JC1-37-20/edu/academy/operator/ShortOperatorsMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JC1-37-20/out/production/JC1-37-20/edu/academy/operator/ShortOperatorsMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JC1-37-20/out/production/JC1-37-20/edu/academy/visibility/Prot.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JC1-37-20/out/production/JC1-37-20/edu/academy/visibility/Prot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JC1-37-20/out/production/JC1-37-20/edu/academy/visibility/ProtMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JC1-37-20/out/production/JC1-37-20/edu/academy/visibility/ProtMain.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\Vladislav\Java\My Projects Idea\Homework 1\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Z7dhvo8Ob22KqhXCDvL24zenlB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Homework 2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
+  </component>
+  <component name="RunManager" selected="Application.ScannerIf">
+    <configuration name="ByteOperations1" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="homework1.Main" />
+      <module name="Homework 1" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework1.Main1" />
+      <module name="Homework 1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PriorityOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework1.PriorityOperations" />
+      <module name="Homework 1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScannerIf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework1.ScannerIf" />
+      <module name="Homework 1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScannerSwitch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="13" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="homework1.ScannerSwitch" />
+      <module name="Homework 1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ByteOperations1" />
+      <item itemvalue="Application.Main1" />
+      <item itemvalue="Application.PriorityOperations" />
+      <item itemvalue="Application.ScannerIf" />
+      <item itemvalue="Application.ScannerSwitch" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ScannerIf" />
+        <item itemvalue="Application.ScannerSwitch" />
+        <item itemvalue="Application.PriorityOperations" />
+        <item itemvalue="Application.Main1" />
+        <item itemvalue="Application.ByteOperations1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="685ffc20-830e-476a-b890-f7c7827a5b6f" name="Default Changelist" comment="" />
+      <created>1584194188511</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584194188511</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="731" y="112" key="#Main" timestamp="1584262049864">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="731" y="112" key="#Main/0.0.1600.860@0.0.1600.860" timestamp="1584262049863" />
+    <state x="320" y="163" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584386971654">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="320" y="163" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1584386971654" />
+    <state x="580" y="187" key="FileChooserDialogImpl" timestamp="1584878505527">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="187" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1584878505527" />
+    <state width="1556" height="199" key="GridCell.Tab.0.bottom" timestamp="1584656156465">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="199" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1584656156465" />
+    <state width="1556" height="199" key="GridCell.Tab.0.center" timestamp="1584656156464">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="199" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1584656156464" />
+    <state width="1556" height="199" key="GridCell.Tab.0.left" timestamp="1584656156464">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="199" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1584656156464" />
+    <state width="1556" height="199" key="GridCell.Tab.0.right" timestamp="1584656156465">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="199" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1584656156465" />
+    <state width="1556" height="150" key="GridCell.Tab.1.bottom" timestamp="1584289370766">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="150" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1584289370766" />
+    <state width="1556" height="150" key="GridCell.Tab.1.center" timestamp="1584289370766">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="150" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1584289370766" />
+    <state width="1556" height="150" key="GridCell.Tab.1.left" timestamp="1584289370766">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="150" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1584289370766" />
+    <state width="1556" height="150" key="GridCell.Tab.1.right" timestamp="1584289370766">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1556" height="150" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1584289370766" />
+    <state x="303" y="61" key="SettingsEditor" timestamp="1584197412145">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="303" y="61" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1584197412145" />
+    <state x="507" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1584372658511">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="507" y="256" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1584372658511" />
+    <state x="379" y="168" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1584203332192">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="379" y="168" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1600.860@0.0.1600.860" timestamp="1584203332192" />
+    <state x="324" y="45" key="new project wizard" timestamp="1584465960947">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="324" y="45" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1584465960947" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1584277311116">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1584277311116" />
+  </component>
+</project>

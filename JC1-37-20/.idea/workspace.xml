@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7ce16912-97f4-463c-8b2f-614c2957a2a4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Homework 1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 1/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 1/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 1/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 1/Homework 1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 1/out/production/Homework 1/META-INF/Homework 1.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 1/out/production/Homework 1/homework1/ByteOperations1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 1/out/production/Homework 1/homework1/ByteOperations2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 1/out/production/Homework 1/homework1/PriorityOperations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 1/src/homework1/ByteOperations1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 1/src/homework1/ByteOperations2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 1/src/homework1/PriorityOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 2/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 2/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 2/Homework 2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 2/out/production/Homework 2/homework2/Color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 2/src/homework2/CalculatorWithOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 2/src/homework2/CalculatorWithOperatorMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 2/src/homework2/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework 2/src/homework2/ColorMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/academy/StaticMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/academy/StringMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/academy/StringsMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/academy/TestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/academy/WhileMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/academy/visibility/StaticMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/academy/visibility/StaticMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../warmup_1/src/homework3/warmup_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JC1-37-20/META-INF/JC1-37-20.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JC1-37-20/edu/academy/HairMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JC1-37-20/edu/academy/HairMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JC1-37-20/edu/academy/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JC1-37-20/edu/academy/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JC1-37-20/edu/academy/Man.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JC1-37-20/edu/academy/Man.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JC1-37-20/edu/academy/ManMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JC1-37-20/edu/academy/ManMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JC1-37-20/edu/academy/animal/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JC1-37-20/edu/academy/animal/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JC1-37-20/edu/academy/animal/EatMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JC1-37-20/edu/academy/animal/EatMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JC1-37-20/edu/academy/animal/Fizik.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JC1-37-20/edu/academy/animal/Fizik.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JC1-37-20/edu/academy/operator/IfOperatorMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JC1-37-20/edu/academy/operator/IfOperatorMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JC1-37-20/edu/academy/operator/ShortOperatorsMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JC1-37-20/edu/academy/operator/ShortOperatorsMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JC1-37-20/edu/academy/visibility/Prot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JC1-37-20/edu/academy/visibility/Prot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JC1-37-20/edu/academy/visibility/ProtMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JC1-37-20/edu/academy/visibility/ProtMain.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Z1h5DyhQQLttMjVxso7LGGWqpv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583777691693" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Homework 2" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="Application" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.StringsMain1">
+    <configuration name="ManMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.academy.ManMain" />
+      <module name="JC1-37-20" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.academy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.academy.StaticMain" />
+      <module name="JC1-37-20" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.academy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.academy.StringMain" />
+      <module name="JC1-37-20" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.academy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringsMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.academy.StringsMain1" />
+      <module name="JC1-37-20" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.academy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhileMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.academy.WhileMain" />
+      <module name="JC1-37-20" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.academy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ManMain" />
+      <item itemvalue="Application.StaticMain" />
+      <item itemvalue="Application.WhileMain" />
+      <item itemvalue="Application.StringMain" />
+      <item itemvalue="Application.StringsMain1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StringsMain1" />
+        <item itemvalue="Application.StringMain" />
+        <item itemvalue="Application.WhileMain" />
+        <item itemvalue="Application.StaticMain" />
+        <item itemvalue="Application.ManMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.13294041" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Application" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Application" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ce16912-97f4-463c-8b2f-614c2957a2a4" name="Default Changelist" comment="" />
+      <created>1583768786807</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583768786807</updated>
+      <workItem from="1583768797630" duration="8064000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8064000" />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="254" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584725172424">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="254" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1584725172424" />
+    <state x="580" y="137" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1584379431048">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="137" key="#com.intellij.ide.macro.MacrosDialog/0.0.1600.860@0.0.1600.860" timestamp="1584379431048" />
+    <state x="605" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1584120441113">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="605" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1584120441113" />
+    <state x="557" y="183" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584117719829">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="557" y="183" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1600.860@0.0.1600.860" timestamp="1584117719829" />
+    <state x="444" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584120878678">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="444" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1584120878678" />
+    <state x="535" y="316" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1584020931440">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="535" y="316" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860@0.0.1600.860" timestamp="1584020931440" />
+    <state x="580" y="187" key="FileChooserDialogImpl" timestamp="1584874452816">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="187" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1584874452816" />
+    <state width="1323" height="238" key="GridCell.Tab.0.bottom" timestamp="1584875123851">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1323" height="238" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1584875123851" />
+    <state width="1323" height="238" key="GridCell.Tab.0.center" timestamp="1584875123851">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1323" height="238" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1584875123851" />
+    <state width="1323" height="238" key="GridCell.Tab.0.left" timestamp="1584875123850">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1323" height="238" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1584875123850" />
+    <state width="1323" height="238" key="GridCell.Tab.0.right" timestamp="1584875123851">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1323" height="238" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1584875123851" />
+    <state width="1323" height="260" key="GridCell.Tab.1.bottom" timestamp="1584187745904">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1323" height="260" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1584187745904" />
+    <state width="1323" height="260" key="GridCell.Tab.1.center" timestamp="1584187745904">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1323" height="260" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1584187745904" />
+    <state width="1323" height="260" key="GridCell.Tab.1.left" timestamp="1584187745904">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1323" height="260" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1584187745904" />
+    <state width="1323" height="260" key="GridCell.Tab.1.right" timestamp="1584187745904">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1323" height="260" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1584187745904" />
+    <state x="358" y="9" key="SettingsEditor" timestamp="1584117685594">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="358" y="9" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1584117685594" />
+    <state x="507" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1584786404653">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="507" y="256" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1584786404653" />
+    <state x="507" y="64" width="585" height="732" key="find.popup" timestamp="1584116214397">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="507" y="64" width="585" height="732" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1584116214397" />
+    <state x="286" y="70" key="new project wizard" timestamp="1584874455592">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="286" y="70" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1584874455592" />
+    <state x="456" y="190" key="run.anything.popup" timestamp="1584725272015">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="456" y="190" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1584725272015" />
+  </component>
+</project>
