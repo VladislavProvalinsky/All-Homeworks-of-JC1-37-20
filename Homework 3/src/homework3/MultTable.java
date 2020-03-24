@@ -32,7 +32,6 @@ public class MultTable {
             res *= x%10;
             x/=10;
             count ++;
-            System.out.println("Multiplication "+count+" : "+res);
         }
         return res;
     }
