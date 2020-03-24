@@ -26,12 +26,35 @@ public class CalculatorWithOperator {
         return res;
     }
 
-    public double power(double x1, int power) {
+public double power(double x1, int power) {
         double res = x1;
-        for (int i = 0; i < power - 1; i++) {
-            res *= x1;
-        }
+        if (power<0){
+            switch (power){
+                case -1:
+                    return 1/x1;
+                default:
+                    res = 1/x1;
+                    for (int i = 0; i > power+1; i--) {
+                    res *= 1/x1;
+                    }
+                break;
+            }
         return res;
+        }
+        else {
+            switch (power){
+                case 0:
+                    return 1;
+                case 1:
+                    return x1;
+                default:
+                    for (int i = 0; i < power - 1; i++) {
+                    res *= x1;
+                    }
+                break;
+            }
+            return res;
+        }
     }
 
     public double module(double x) {
