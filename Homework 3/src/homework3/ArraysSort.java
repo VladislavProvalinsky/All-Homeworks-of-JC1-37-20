@@ -3,11 +3,6 @@ package homework3;
 public class ArraysSort {
 
     public void chooseSort (int[]a){
-        System.out.print("Массив до сортировки: ");
-        for (int i = 0; i < a.length; i++) {
-            System.out.print(a[i]+" ");
-        }
-        System.out.print("\nМассив после сортировки методом прямого выбора: ");
         for (int i = 0; i < a.length; i++) {
             int m = i;
             for (int j = i; j < a.length; j++) {
@@ -23,10 +18,6 @@ public class ArraysSort {
     }
 
     public void bubbleSort (int [] a){
-        System.out.print("Массив до сортировки: ");
-        for (int i = 0; i < a.length; i++) {
-            System.out.print(a[i] + " ");
-        }
         for (int i = 0; i < a.length - 1; i++) {
             for (int j = 0; j < a.length - i - 1; j++) {
                 if (a[j] > a[j + 1]) { // можно менять условие в зависимости от порядка сортировки
@@ -36,17 +27,9 @@ public class ArraysSort {
                 }
             }
         }
-        System.out.print("\nМассив после пузырьковой сортировки: ");
-        for (int i = 0; i < a.length; i++) {
-            System.out.print(a[i] + " ");
-        }
     }
 
     public void shakerSort (int [] a){
-        System.out.print("Массив до сортировки: ");
-        for (int i = 0; i < a.length; i++) {
-            System.out.print(a[i] + " ");
-        }
         int leftSide = 1; // определяем номер эл-та с левой стороны
         int rightSide = a.length-1; // определяем номер эл-та с правой стороны
         while (leftSide<=rightSide) { // вводим цикл сужения
@@ -67,17 +50,9 @@ public class ArraysSort {
             }
             rightSide--; // уменьшаем количество итераций
         }
-        System.out.print("\nМассив после шейкерной сортировки: ");
-        for (int i = 0; i < a.length; i++) {
-            System.out.print(a[i] + " ");
-        }
     }
 
     public void insertSort (int[]a){
-        System.out.print("Массив до сортировки: ");
-        for (int i = 0; i < a.length; i++) {
-            System.out.print(a[i]+" ");
-        }
         for (int i = 1; i < a.length; i++) {
             int current = a[i];
             int m = i-1;
@@ -86,10 +61,6 @@ public class ArraysSort {
                 m--;
             }
             a[m+1]=current;
-        }
-        System.out.print("\nМассив после сортировки методом включения: ");
-        for (int i = 0; i < a.length; i++) {
-            System.out.print(a[i] + " ");
         }
     }
 
@@ -113,7 +84,7 @@ public class ArraysSort {
         merge(a, leftArr, rightArr, mid, a.length - mid);
     }
 
-    public void merge(int[]a, int[]leftArr, int[]rightArr, int left, int right) {
+    private void merge(int[]a, int[]leftArr, int[]rightArr, int left, int right) {
         int i = 0, j = 0, k = 0;
         while (i < left && j < right) {
             if (leftArr[i]<= rightArr[j]) {
@@ -131,32 +102,66 @@ public class ArraysSort {
         }
     }
 
-    public void quickSort(int[] a) {
-        int leftMarker = 1;
-        int rightMarker = a.length-1;
-        int pivot = a[(leftMarker + rightMarker) / 2]; // определяем опорный элемент
-        do {
-            while (a[leftMarker] < pivot) { // Двигаем левый маркер слева направо пока элемент меньше, чем pivot
-                leftMarker++;
+    public void quickSort (int[] a, int start, int end) {
+        int startMarker = start;
+        int endMarker = end;
+        int pivot = a[end-1]; // определяем опорный элемент
+        while (startMarker < endMarker){
+            while (a[startMarker] < pivot) { // Двигаем левый маркер слева направо пока элемент меньше, чем pivot
+                startMarker++;
             }
-            while (a[rightMarker] > pivot) { // Двигаем правый маркер, пока элемент больше, чем pivot
-                rightMarker--;
+            while ((a[endMarker] > pivot) && (endMarker > startMarker)) { // Двигаем правый маркер, пока элемент больше, чем pivot
+                endMarker--;
             }
-            if (leftMarker <= rightMarker) { // Проверим, не нужно обменять местами элементы, на которые указывают маркеры
-                if (leftMarker < rightMarker) { // Левый маркер будет меньше правого только если мы должны выполнить swap
-                    int temp = a[leftMarker];
-                    a[leftMarker] = a[rightMarker];
-                    a[rightMarker] = temp;
+            if (startMarker < endMarker) { // Проверим, не нужно обменять местами элементы, на которые указывают маркеры
+                int temp = a[startMarker];
+                a[startMarker] = a[endMarker];
+                a[endMarker] = temp;
+                if (endMarker - startMarker>1){
+                startMarker++; // Сдвигаем маркеры, чтобы получить новые границы
+                endMarker--;
+                } else {
+                    break;
                 }
-                leftMarker++; // Сдвигаем маркеры, чтобы получить новые границы
-                rightMarker--;
             }
-        } while (leftMarker <= rightMarker);
-        if (leftMarker < a.length-1) { // Выполняем рекурсивно для частей
-            quickSort(a);
         }
-        if (0 < rightMarker) {
-            quickSort(a);
+        if ((startMarker>start) && (startMarker-start>1)) { // Выполняем рекурсивно для частей
+            quickSort(a,start,startMarker);
         }
+        if ((end>endMarker) && (end-endMarker>1)) {
+            quickSort(a,endMarker,end);
+        }
+    }
+
+    public int [] deleteDublicat (int [] a){
+        boolean flag = false;
+        int countIteration=0;
+        int count = 0;
+        int n = a.length;
+        int [] temp = new int [n];
+        for (int i = 0; i < a.length ; i++) {
+            flag = false;
+            countIteration = 0;
+            for (int j = i+1; j < a.length; j++) {
+                if (a[i]==a[j]){
+                    temp [i] = a[i];
+                    flag = true;
+                    countIteration++;
+                }
+            }
+            temp [i] = a[i];
+            if (flag == true){
+                i+=countIteration;
+                count+=countIteration;
+            }
+        }
+        int [] res = new int [a.length-count];
+        for (int i = 0, j=0; j < temp.length; i++,j++) {
+                if (temp[j]!=0){
+                    res [i]=temp[j];
+                } else
+                    i--;
+            }
+        return res;
     }
 }

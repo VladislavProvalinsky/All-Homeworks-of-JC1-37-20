@@ -6,18 +6,23 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        MultTable ob = new MultTable();
-        ArraysCycles ob1 = new ArraysCycles();
-        ArraysSort ob2 = new ArraysSort();
-//        System.out.println("Result: "+ ob.multTable(7));
-//        ob.multNumber(155547);
-//        ob1.every2Element();
-        int [] arr1 = {0,1,2,3,4,5,6,7,8,9};
-        int [] arr2 = {0,1,2,3,4,5,6,7,8,0};
-        int [] arr3 = {0,1,2,3,5,5,5,7,8,0};
-        int [] arr4 = {1,1,1,1,1,1,1,1,1,0};
-        System.out.println(Arrays.toString(arr3));
-        ob2.quickSort(arr3);
-        System.out.println(Arrays.toString(arr3));
+//        int [] arr = {4,8,7,3,3,3,3,4,4,2,2,7,8,9,4,4,4,4,0,0,0};
+//        int [] arr1 = {0,1,2,3,4,5,6,7,8,9};
+//        int [] arr2 = {0,1,2,3,4,5,6,7,8,0};
+//        int [] arr3 = {0,1,2,3,5,5,5,7,8,0};
+//        int [] arr4 = {1,1,1,1,1,1,1,1,1,0};
+        Scanner in = new Scanner(System.in);
+        System.out.print("Введите количество элементов вашего массива: ");
+        int n = in.nextInt();
+        int [] arr = new int [n];
+        System.out.print("Введите элементы вашего массива: ");
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = in.nextInt();
+        }
+        ArraysSort ob = new ArraysSort();
+        System.out.println("Ваш массив: "+ Arrays.toString(arr));
+        ob.quickSort(arr,0,arr.length-1);
+        System.out.println("Отсортированный массив: "+ Arrays.toString(arr));
+        System.out.println("Массив без дубликатов: "+ Arrays.toString(ob.deleteDublicat(arr)));
     }
 }
