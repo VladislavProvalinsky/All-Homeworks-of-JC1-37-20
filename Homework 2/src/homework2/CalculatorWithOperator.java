@@ -1,6 +1,6 @@
 package homework2;
 
-public class CalculatorWithOperator {
+public class CalculatorWithOperator implements ICalculator {
 
     public double addition(double x1, double x2) {
         double res;
@@ -26,7 +26,7 @@ public class CalculatorWithOperator {
         return res;
     }
 
-public double power(double x1, int power) {
+    public double power(double x1, int power) {
         double res = x1;
         if (power<0){
             switch (power){
@@ -35,11 +35,11 @@ public double power(double x1, int power) {
                 default:
                     res = 1/x1;
                     for (int i = 0; i > power+1; i--) {
-                    res *= 1/x1;
+                        res *= 1/x1;
                     }
-                break;
+                    break;
             }
-        return res;
+            return res;
         }
         else {
             switch (power){
@@ -49,9 +49,9 @@ public double power(double x1, int power) {
                     return x1;
                 default:
                     for (int i = 0; i < power - 1; i++) {
-                    res *= x1;
+                        res *= x1;
                     }
-                break;
+                    break;
             }
             return res;
         }
@@ -66,11 +66,21 @@ public double power(double x1, int power) {
         return res;
     }
 
-    public double sqrt(double x1, int sqrt_power) {
+    public double sqrt(double x1){
+        double sqrt = 0;
+        double t;
+        double squareRoot = x1 / 2;
+        do {
+            t = squareRoot;
+            squareRoot = (t + (x1 / 2)) / 2;
+        } while (t - squareRoot != 0);
+        return squareRoot;
+    }
+
+    public double sqrtAny(double x1, int sqrt_power) {
         double sqrt = 0;
         if (x1 < 0 && sqrt_power % 2 == 0) {
-            System.out.println("Корня четной степени из отрицательного числа не существует!");
-            System.exit(0);
+            System.exit(0); // Корня четной степени из отрицательного числа не существует!
         } else {
             double t;
             double squareRoot = x1 / sqrt_power;
