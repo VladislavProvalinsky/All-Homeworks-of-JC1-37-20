@@ -5,28 +5,15 @@
 package Homework5;
 
 import java.io.File;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 
 public class FileReaderMain {
-    private static String readAllBytesJava7(String filePath) {
-        String text ="";
-        try {
-            text = new String(Files.readAllBytes(Paths.get(filePath)));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return text;
-    }
-
     public static void main(String[] args) {
         String separator = File.separator;
         String path = "C:"+separator+"Users"+separator+"Vlad"+separator+"Desktop"+separator+"Война и мир.txt";
         EasySearch easySearch= new EasySearch();
-        System.out.println(easySearch.search(readAllBytesJava7(path),"Война")); // 57
-        System.out.println(easySearch.search(readAllBytesJava7(path)," и ")); // 13883
-        System.out.println(easySearch.search(readAllBytesJava7(path),"мир")); // 298
+        System.out.println(easySearch.search(ReadAllBytes.readAllBytesJava7(path),"Война")); // 57
+        System.out.println(easySearch.search(ReadAllBytes.readAllBytesJava7(path)," и ")); // 13883
+        System.out.println(easySearch.search(ReadAllBytes.readAllBytesJava7(path),"мир")); // 298
 
     }
 }
