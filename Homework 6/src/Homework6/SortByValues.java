@@ -15,7 +15,7 @@ public class SortByValues {
 
         list.sort(new MapValuesComparator());
 
-        // 3. Посещаем отсортированный list по значениям в новыую Map LinkedHashMap сохраняя порядок вставки.
+        // 3. Помещаем отсортированный list по значениям в новую Map (LinkedHashMap) сохраняя порядок вставки.
 
         Map<String, Integer> sortedMap = new LinkedHashMap<>();
         for (Map.Entry<String, Integer> entry : list) {
