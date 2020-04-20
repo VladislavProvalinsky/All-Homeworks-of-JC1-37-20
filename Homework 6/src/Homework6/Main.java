@@ -29,9 +29,10 @@ public class Main {
 //            System.out.println(entry.getKey() + " : " + entry.getValue());
 //        }
 
-        // последние 10 часто встречающихся слов
+        // 10 часто встречающихся слов в книге
         List<Map.Entry<String, Integer>> list = new ArrayList<>(sortedMap.entrySet());
-        for (int i = list.size()-10; i < list.size(); i++) {
+        System.out.println("10 часто встречающихся слов в книге:");
+        for (int i = 0; i < 10; i++) {
             System.out.println(list.get(i));
         }
     }
