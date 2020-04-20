@@ -10,7 +10,14 @@ public class SortByValues {
 
         // 2. Сортируем наш list с помощью метода Collections.sort() используя в качестве параметра list и наш Comparator
 
-        Collections.sort(list,new MapValuesComparator());
+        Collections.sort(list, new Comparator <Map.Entry<String, Integer>>(){
+
+            // Реализуем необходимый метод интерфейса Comparator для сортировки нашей Map по значению.
+            @Override
+            public int compare(Map.Entry<String, Integer> o1, Map.Entry<String, Integer> o2) {
+                return (o2.getValue()).compareTo(o1.getValue());
+            }
+        });
 
         // 3. Помещаем отсортированный list по значениям в новую Map (LinkedHashMap) сохраняя порядок вставки.
 
