@@ -14,6 +14,7 @@ import java.util.Objects;
 
 public class Student implements Serializable {
 
+    private static final long serialVersionUID = 2600211365436592622L;
     private int id;
     private String name;
 
