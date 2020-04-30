@@ -1,11 +1,14 @@
 package homework4;
 
+import java.util.Comparator;
+
 public class CountryAreaComparator implements Comparator<Country>{
-    public int compare(Country country1, Country country2) {
-        if (country1.getSquare() == country2.getSquare()) {
+    @Override
+    public int compare(Country o1, Country o2) {
+        if (o1.getSquare() == o2.getSquare()) {
             return 0;
         }
-        if (country1.getSquare() > country2.getSquare()) {
+        else if (o1.getSquare() > o2.getSquare()) {
             return 1;
         }
         else {

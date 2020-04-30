@@ -1,3 +1,19 @@
+//ДЗ4:
+//Выполнить до 27.03:
+//1. Создать энум страны Country:
+//1.1. В котором есть 10 элементов
+//1.2. У каждого элемента есть два свойства (площадь страны, количество человек)
+//1.3. Добавить интерфейс с методами получения площади страны и количеством человек
+//1.4. Энум должен реализовывать созданный интерфейс
+//1.5. Воспользоваться методом valueOf передав туда название элемента энума
+//1.6. Сравнить результат valueOf и элемент энума через оператор ==
+//1.7. Передать в valueOf имя несуществующего элемента
+//1.8. Изучить что делаем метод compareTo в энумах.
+//1.9. Изучить интерфейсы Comparable и Comparator из jdk
+//1.9. Создать класс CountryAreaComparator. Данный класс должен реализоватвать интерфейс Comparator
+// (implements Comparator<Country> написать вот так, что такое в скобочках мы пока не изучали, если что это тема generics).
+// В данном классе необходимо сравнить площадь двух переданных стран.
+
 package homework4;
 
 public enum Country implements ICharacteristicsCountry {
@@ -24,16 +40,8 @@ public enum Country implements ICharacteristicsCountry {
         return popularity;
     }
 
-    public void setPopularity(int popularity) {
-        this.popularity = popularity;
-    }
-
     public int getSquare() {
         return square;
-    }
-
-    public void setSquare(int square) {
-        this.square = square;
     }
 
     public int getPopularity (Country Country){
