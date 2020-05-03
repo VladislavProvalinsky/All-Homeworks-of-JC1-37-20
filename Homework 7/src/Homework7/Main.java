@@ -10,38 +10,24 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main {
-
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
-        int counter = 0;
         int chances = 3;
-        while (counter < 3) {
-            System.out.print("Введите число от 1 до 10: ");
+        while (chances > 0) {
             try {
-                int number = scanner.nextInt();
-                if (number >=0 && number <=10) {
+                System.out.print("Введите число от 1 до 10: ");
+                int number = Integer.parseInt(scanner.nextLine());
+                chances--;
+                if (number >= 0 && number <= 10) {
                     System.out.println("Вы ввели число: " + number);
                     return;
-                } else if (chances==1){
-                    System.out.println("Вы рукожоп!");
-                    return;
-                } else {
-                    counter++;
-                    chances--;
-                    System.out.println("Число не из этого диапазона! Повторите попытку.");
-                    System.out.printf("(Осталось попыток %d) ", chances);
-                }
-            } catch (InputMismatchException e){
-                if (chances==1) {
-                    System.out.println("Вы рукожоп!");
-                    return;
-                } else {
-                    counter++;
-                    chances--;
-                    System.out.println("Текст не допустим! Повторите попытку.");
-                    System.out.printf("(Осталось попыток: %d) ", chances);
-                    scanner.next();
-                }
+                } throw new InputMismatchException();
+            } catch (InputMismatchException e) {
+                System.out.println("Число не из этого диапазона! Осталось попыток - " + chances);
+            } catch (NumberFormatException e) {
+                chances--;
+                System.out.println("Текст не допустим! Осталось попыток - " + chances);
             }
         }
     }
