@@ -1,14 +1,18 @@
 package Homework9;
 
 import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 
 public class Main {
 
     // пишем статический метод для вставок уникальных выборок (в качестве ключей) с колличеством их повторений
-    public static void mapAdditor(Map<String, Integer> map, List<String> list) {
+    public static void mapAdditor (Map<String, Integer> map, List<String> list) {
         for (String word : list) {
             if (map.containsKey(word)) {
                 map.put(word, map.get(word) + 1);
@@ -21,8 +25,15 @@ public class Main {
     public static void main(String[] args) {
         String separator = File.separator;
         String path = "C:" + separator + "Users" + separator + "Vlad" + separator + "Desktop" + separator + "Benign_list_big_final.csv";
-        List<String> urls = new ArrayList<>(Arrays.asList(FileReader.readAllBytesJava7(path).replaceAll(";", "").split("\\s")));
-        urls.removeIf(url -> url.equals(""));
+
+        List<String> urls = null;
+        try {
+            urls = Files.lines(Paths.get(path))
+                    .map(s -> s.replaceAll(";",""))
+                    .collect(Collectors.toList());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
         Pattern pattern = Pattern.compile("(http|https)://([\\w.]*\\.([\\w]*))/?.*"); // задаем Pattern шаблон для проверок URL адресов
 
@@ -36,25 +47,15 @@ public class Main {
         for (String url : urls) { // пишем цикл проверок соответствия адресов паттерну и выводим нужные выборки по группам (сразу добавляем каждую выборку в свой лист)
             Matcher matcher = pattern.matcher(url);
             boolean matches = matcher.matches();
-            System.out.println(url + " : " + matches);
             if (matches) { // выбираем только "чистые" адреса и только у "чистых" записываем в листы выборки
-                if (matcher.groupCount() > 0) {
-                    System.out.println("Protocol: " + matcher.group(1));
-                    protocols.add(matcher.group(1));
-                }
-                if (matcher.groupCount() > 1) {
-                    System.out.println("Domen: " + matcher.group(2));
-                    domens.add(matcher.group(2));
-                }
-                if (matcher.groupCount() > 2) {
-                    System.out.println("Upper domen: " + matcher.group(3));
-                    upperDomens.add(matcher.group(3));
-                }
+                protocols.add(matcher.group(1));
+                domens.add(matcher.group(2));
+                upperDomens.add(matcher.group(3));
             }
-            System.out.println("-----------------------");
         }
 
         // Заводим для каждого листа выборок свои Мапы для будущей сортировки
+
         Map<String, Integer> mapOfProtocols = new LinkedHashMap<>();
         Map<String, Integer> mapOfDomens = new LinkedHashMap<>();
         Map<String, Integer> mapOfUpperDomens = new LinkedHashMap<>();
