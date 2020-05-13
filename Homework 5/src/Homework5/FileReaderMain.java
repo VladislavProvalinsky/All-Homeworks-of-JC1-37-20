@@ -5,15 +5,20 @@
 package Homework5;
 
 import java.io.File;
+import java.util.regex.Pattern;
 
 public class FileReaderMain {
     public static void main(String[] args) {
         String separator = File.separator;
         String path = "C:"+separator+"Users"+separator+"Vlad"+separator+"Desktop"+separator+"Война и мир.txt";
-        EasySearch easySearch= new EasySearch();
-        System.out.println(easySearch.search(ReadAllBytes.readAllBytesJava7(path),"Война")); // 57
-        System.out.println(easySearch.search(ReadAllBytes.readAllBytesJava7(path)," и ")); // 13883
-        System.out.println(easySearch.search(ReadAllBytes.readAllBytesJava7(path),"мир")); // 298
+        //ищем слова с помощью паттерна
+        Pattern pattern = Pattern.compile("мир");
+        System.out.println(EasySearchRegex.searchWithPattern(pattern, ReadAllBytes.readAllBytesJava7(path)));
+
+//        EasySearch easySearch= new EasySearch();
+//        System.out.println(easySearch.search(ReadAllBytes.readAllBytesJava7(path),"Война")); // 57
+//        System.out.println(easySearch.search(ReadAllBytes.readAllBytesJava7(path)," и ")); // 13883
+//        System.out.println(easySearch.search(ReadAllBytes.readAllBytesJava7(path),"мир")); // 298
 
     }
 }
