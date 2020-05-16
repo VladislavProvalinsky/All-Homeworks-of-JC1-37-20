@@ -12,8 +12,12 @@ public class FileReaderMain {
         String separator = File.separator;
         String path = "C:"+separator+"Users"+separator+"Vlad"+separator+"Desktop"+separator+"Война и мир.txt";
         //ищем слова с помощью паттерна
-        Pattern pattern = Pattern.compile("мир");
-        System.out.println(EasySearchRegex.searchWithPattern(pattern, ReadAllBytes.readAllBytesJava7(path)));
+        Pattern pattern1 = Pattern.compile("[Вв]ойна");
+        Pattern pattern2 = Pattern.compile("[Мм]ир");
+        Pattern pattern3= Pattern.compile(" [Ии] ");
+        System.out.println(EasySearchRegex.searchWithPattern(pattern1, ReadAllBytes.readAllBytesJava7(path)));
+        System.out.println(EasySearchRegex.searchWithPattern(pattern2, ReadAllBytes.readAllBytesJava7(path)));
+        System.out.println(EasySearchRegex.searchWithPattern(pattern3, ReadAllBytes.readAllBytesJava7(path)));
 
 //        EasySearch easySearch= new EasySearch();
 //        System.out.println(easySearch.search(ReadAllBytes.readAllBytesJava7(path),"Война")); // 57
