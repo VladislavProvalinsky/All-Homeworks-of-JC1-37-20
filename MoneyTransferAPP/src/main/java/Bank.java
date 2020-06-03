@@ -1,6 +1,8 @@
 import org.apache.commons.math3.util.Precision;
 
 import java.util.*;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class Bank implements IAccountOperations{
     private String nameOfBank; // название банка
@@ -13,10 +15,15 @@ public class Bank implements IAccountOperations{
     private Account bankAccountRUS = new Account(nameOfBank, ECurrency.RUS); // счет банка в RUS
     private Map <String, Account> clientsAccounts = new LinkedHashMap<>(); // счета клиентов банка с ключем по IBAN счета
 
+    Lock lock1 = new ReentrantLock();
+    Lock lock2 = new ReentrantLock();
+
     private double bankUSDCourse = 2.45d; // курс доллара
     private double bankEURCourse = 2.65d; // курс евро
     private double bankRURCourse = 0.0034d; // курс росс рубля
     private double transferComission = 0.01d; // комиссия за перевод 1% от суммы минимум 5 BYN
+
+    public Bank(){}
 
     public Bank(String bankName) { // создаем новый Банк
         this.nameOfBank = bankName;
@@ -117,6 +124,7 @@ public class Bank implements IAccountOperations{
         }
     }
 
+    @Override
     public void transferBankToBank(Account from, Account to, double amount) { // метод перевода со счета на счет для межбанковских переводоа
         operationsCounter++;
         if (from.getCurrencyCode() == 933) { // если списание со счета в белках
@@ -295,5 +303,13 @@ public class Bank implements IAccountOperations{
 
     public Account getBankAccountRUS() {
         return bankAccountRUS;
+    }
+
+    public int getOperationsCounter() {
+        return operationsCounter;
+    }
+
+    public String getNameOfBank() {
+        return nameOfBank;
     }
 }
